@@ -5,21 +5,22 @@ import Button from "../button/Button";
 
 function Signup() {
   const history = useHistory()
-  const [values, setvalues] = useState({});
+  const [values, setvalues] = useState({})
+
   const onchange = (e) => {
-    setvalues({ ...values, [e.target.name]: e.target.value });
+    setvalues({ ...values, [e.target.name]: e.target.value })
     console.log(values);
-  };
+  }
 
   const handleclick = (e) => {
-    e.preventDefault();
-    console.log(values);
-  };
+    e.preventDefault()
+    console.log(values)
+  }
   const submit = (e) => {
-    e.preventDefault();
-    history.push("/SignIn")
-    console.log(values);
-  };
+    e.preventDefault()
+    history.push("/")
+    console.log(values)
+  }
   return (
     <div>
       <div className="formcontainer">

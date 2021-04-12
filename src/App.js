@@ -1,13 +1,13 @@
-import Signup from './signup/signup'
+// import Signup from "./signup/signup"
+// import SignIn from "./SignIn/SignIn"
+import Router from "./router/router"
 import './App.css';
-import SignIn from './SignIn/SignIn'
-
 function App() {
   return (
     <div className="App">
-<Signup/>
-<SignIn/>
-
+<Router/>
+{/* <Signup/>
+<SignIn/> */}
     </div>
   );
 }

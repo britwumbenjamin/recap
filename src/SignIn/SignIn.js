@@ -12,7 +12,7 @@ const SignIn = () => {
       console.log(values);
       const submit = (e) => {
           e.preventDefault()
-          history.push("/")
+          history.push("/Signup")
           console.log(values);
       }
       const submitemail = (e) => {
